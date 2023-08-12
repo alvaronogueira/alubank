@@ -1,4 +1,5 @@
-import 'package:alubank/components/header.dart';
+import 'package:alubank/components/box_card.dart';
+import 'package:alubank/components/sections/header.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
@@ -6,10 +7,13 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Column(
         children: <Widget>[
           Header(),
+          BoxCard(
+            boxContent: Text('Hello world!'),
+          ),
         ],
       ),
     );
