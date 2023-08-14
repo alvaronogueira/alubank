@@ -1,4 +1,4 @@
-import 'package:alubank/components/box_card.dart';
+/*import 'package:alubank/components/box_card.dart';
 import 'package:flutter/material.dart';
 
 class AccounPoints extends StatelessWidget {
@@ -41,6 +41,6 @@ class _AccountPoints extends StatelessWidget {
   }
 }
 
-
+*/
 
 
