@@ -7,6 +7,7 @@ ThemeData MyTheme = ThemeData(
   primaryColor: ThemeColors.primaryColor,
   // formatação de cor para toda aplicação
   brightness: Brightness.dark,
+  fontFamily: 'Raleway',
   textTheme: TextTheme(
     // formatação da fonte para toda aplicação
     bodyMedium: TextStyle(
